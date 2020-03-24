@@ -4,3 +4,5 @@ This repository contains the basic static HTML website content behind https://mu
 
 It is a simple page with links to forms hosted currently by Framaforms.
 
+The CSS is based on bluma: https://bulma.io/documentation/
+
