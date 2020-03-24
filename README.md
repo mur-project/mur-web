@@ -1,6 +1,6 @@
-# SRAS-WARS MUR (Minimal Universal Respirator) web site
+# MUR (Minimal Universal Respirator) web site
 
-This repository contains the basic static HTML website content behind https://mur.sraswars.org/
+This repository contains the basic static HTML website content behind https://www.mur-project.org/
 
 It is a simple page with links to forms hosted currently by Framaforms.
 
