@@ -20,6 +20,7 @@
         color: #1d72aa;
       }
     </style>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   </head>
   <body>
     <!-- APP BAR -->
@@ -67,6 +68,24 @@
       </a>
     </div>
 
+    <!-- RESTER INFORME -->
+
+    <div style="display: flex;align-items: center;justify-content: center;">
+      <button class="button is-info" id="feedback-form">Inscrivez-vous pour rester informé.e !</button>
+      <script id="zammad_form_script" src="https://contacts.mur-project.org/assets/form/form.js"></script>
+      <script>
+        $(function () {
+          $('#feedback-form').ZammadForm({
+            messageTitle: 'Rester informé.e !',
+            messageSubmit: 'S\'inscrire',
+            messageThankYou: 'Merci pour votre requête  (#%s) ! Nous vous recontacterons dans les meilleurs délais.',
+            showTitle: true,
+            modal: true
+          });
+        });
+      </script>
+    </div>
+    &nbsp;<br>
 
     <!-- PROJECT -->
 
